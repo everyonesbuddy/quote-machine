@@ -49,8 +49,8 @@ function App() {
         <div id="quote-box">
         <p id="text">{quote}</p>
         <h3 id="author">{author}</h3>
-        <button id="new-quote" onClick = {() => getRandomQuote()}>Display Random Quote</button>
         <a href= {encodeURI(`http://www.twitter.com/intent/tweet?text=${quote} -${author}`)} id="tweet-quote">Tweet Quote</a>
+        <button id="new-quote" onClick = {() => getRandomQuote()}>Display Random Quote</button>
         </div>
       </header>
     </div>
